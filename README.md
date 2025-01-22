@@ -1,6 +1,6 @@
 # T3RN BRIDGE BOT
 
-![t3rn](assets/img1.png)
+![t3rn](assets/img1.webp)
 
 A bot designed to automate transactions and bridge assets on the t3rn network, making the process seamless and efficient. Now supports both Optimism Sepolia and Arbitrum Sepolia testnets.
 
