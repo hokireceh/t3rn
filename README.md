@@ -23,16 +23,10 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 
 - Install Prerequites:
   ```
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
-  echo 'export NVM_DIR="$HOME/.nvm"' >> $HOME/.bash_profile
-  echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm' >> $HOME/.bash_profile
-  echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion' >> $HOME/.bash_profile
-  source $HOME/.bash_profile
-  nvm install --lts
-  node -v
-  npm -v
-  sudo apt-get update
-  sudo apt-get upgrade
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  source ~/.bashrc
+  nvm install 22
+  nvm use 22
   ```
 
 1. Clone project repository
@@ -45,7 +39,7 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
    ```
 3. Copy all folder
    ```
-   cp accounts/accounts_tmp.js accounts/accounts.js && cp config/config_tmp.js config/config.js
+   cp accounts/accounts_tmp.js accounts/accounts.js
    ```
 4. Configure the accounts
    ```
@@ -54,7 +48,7 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
    Setup your accounts using PK or Seed
 5. Configure the config
    ```
-   nano config/config.js
+   nano config.js
    ```
    Setup your config using OP / ARB
 6. To start the app run 
