@@ -4,7 +4,7 @@
 
 A bot designed to automate transactions and bridge assets on the t3rn network, making the process seamless and efficient. Now supports both Optimism Sepolia and Arbitrum Sepolia testnets.
 
-**Register : [T3rn Airdrop](https://bridge.t1rn.io/)**
+**Register : [T3rn Airdrop](https://t.me/garapanairdrop_indonesia/311)**
 
 ## BOT FEATURE
 
