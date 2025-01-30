@@ -4,7 +4,7 @@ export class Config {
    *  Network ARB <Swap from ARB to OP sepolia
    */
   static network = "ARB"; //OP or ARB
-  static BRIDGEAMOUNT = "0.4";
+  static BRIDGEAMOUNT = "0.8";
   static OPRPCURL = "https://sepolia.optimism.io";
   static ARBRPCURL = "https://sepolia-rollup.arbitrum.io/rpc";
 
